@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 180px;
+    height: 210px;
     background-color: var(--azul_esmeralda);
 
     
@@ -51,8 +51,10 @@
 
 .header button:hover {
     color: var(--rosa);
+    cursor: pointer;
 }
 
 .header a:hover {
-    color: var(--azul_marinho);
+    color: var(--azul_marinho);    
+    
 }
