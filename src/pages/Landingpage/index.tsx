@@ -14,7 +14,7 @@ function Landingpage() {
                         Celebramos a diversidade e valorizamos a inclusão, utilizando a tecnologia como ferramenta para abordar questões sociais urgentes. Aqui, cada voz é ouvida e cada contribuição é valorizada. Junte-se a nós nessa jornada em direção a um futuro onde a tecnologia seja verdadeiramente para todos.
                     </p>
                     <figure>
-                        <img src="../public/static/images/cyberTeam.jpg" alt="" />
+                        <img src="/cyberTeam.jpg" alt="" />
                     </figure>
 
                 </div>
