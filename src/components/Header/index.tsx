@@ -4,7 +4,7 @@ function Header(){
     return (
         <header className={styles.header}>
             <figure>
-                <img src={"/public/static/images/headerimage.png"} alt="" />
+                <img src="/headerimage.png" alt="" />
             </figure>
             <button>Login</button>
             <nav>
