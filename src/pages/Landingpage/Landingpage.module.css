@@ -1,4 +1,4 @@
-.sobre {
+.sobre, .planoDeEstudos {
     background-color: var(--azul_marinho);
     width: 100%;
     min-height: 90vh;
@@ -10,9 +10,10 @@
     color: var(--azul_claro);
 }
 
-.sobre h2 {
-    padding-left: 5rem;
-    font-size: 2rem;
+.sobre h2, .planoDeEstudos h2 {
+    color: var(--azul_claro);
+    padding-left: 3rem;
+    font-size: 1.5rem;
 }
 
 .sobre img {
@@ -46,15 +47,15 @@
     font-size: 1rem; /* 48px */
     margin-bottom: 1rem;
     width: 1100px;
-    padding-left: 13rem;
+    padding-left: 14.5rem;
     padding-top: 3rem;
     color: var(--azul_marinho);
 }
 
-.time h2 {
+.time h2, .faleConosco h2 {
     color: var(--azul_marinho);
-    padding-left: 5rem;
-    font-size: 2rem;
+    padding-left: 3rem;
+    font-size: 1.5rem;
 }
 
 .time figure {
@@ -62,14 +63,89 @@
 }
 
 .time img {
-    /* display: flex; */
     align-items: center;
     justify-content: flex-end;
-    width: 250px;
-    padding: 2rem;
+    width: 200px;
+    margin: 1rem;
     border-radius: 30px;
 }
 
 .time img:hover {
     cursor: pointer;
+}
+
+.planoDeEstudos p {
+    font-size: 1rem; 
+    margin-bottom: 1rem;
+    width: 1210px;
+    padding-left: 20rem;
+    padding-top: 1rem;
+    color: var(--azul_claro);
+}
+
+.planoDeEstudos img {
+    margin: 20px 0px 50px 380px;
+    width: 800px;
+}
+
+.faleConosco {
+    background-color: var(--azul_claro);
+    color: var(--azul_marinho);
+    width: 100%;
+    min-height: 90vh;
+    padding: 60px 0px 100px 0px;
+}
+
+.faleConosco p {
+    font-size: 1rem; 
+    margin-bottom: 3rem;
+    width: 1192px;
+    padding-left: 20rem;
+    padding-top: 1rem;
+    color: var(--azul_marinho);
+}
+
+.faleConosco span{
+    font-weight: bold;
+}
+
+.faleConosco section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    width: 400px;
+    background-color: var(--rosa);
+    color: var(--azul_claro);
+    border: 3px solid var(--azul_marinho);
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: var(--azul_claro);
+}
+
+form input[type=submit] {
+    background-color: var(--azul_esmeralda);
+    cursor: pointer;
+    border: 0px;
+    width: 300px;
+    align-self: center;
+}
+
+.faleConoscoForms {
+    background-color: var(--rosa);
+    margin: 0px 400px 0px 400px;
+    border-radius: 20px;
 }
