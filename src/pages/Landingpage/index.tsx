@@ -26,14 +26,14 @@ function Landingpage() {
                         Estamos unidos em nossa missão de tornar a tecnologia acessível e inclusiva para todos.
                     </p>
                     <figure>
-                        <img src="../public/static/images/timePic1.avif" alt="" />
-                        <img src="../public/static/images/timePic2.avif" alt="" />
-                        <img src="../public/static/images/timePic3.avif" alt="" />
-                        <img src="../public/static/images/timePic4.avif" alt="" />
-                        <img src="../public/static/images/timePic5.avif" alt="" />
-                        <img src="../public/static/images/timePic6.avif" alt="" />
-                        <img src="../public/static/images/timePic7.avif" alt="" />
-                        <img src="../public/static/images/timePic8.avif" alt="" />
+                        <img src="/timePic1.avif" alt="" />
+                        <img src="/timePic2.avif" alt="" />
+                        <img src="/timePic3.avif" alt="" />
+                        <img src="/timePic4.avif" alt="" />
+                        <img src="/timePic5.avif" alt="" />
+                        <img src="/timePic6.avif" alt="" />
+                        <img src="/timePic7.avif" alt="" />
+                        <img src="/timePic8.avif" alt="" />
                     </figure>
                 </div>
 
@@ -44,7 +44,7 @@ function Landingpage() {
                         Além de cobrir desde conceitos básicos até tecnologias avançadas, nosso programa também aborda questões de carreira, gestão e ética na área de tecnologia. Oferecemos mentorias em soft skills para aprimorar habilidades como comunicação, liderança, aprendizado e auto-gestão.
                     </p>
                     <figure>
-                        <img src="../public/static/images/planoDeEstudos.jpg" alt="" />
+                        <img src="/planoDeEstudos.jpg" alt="" />
                     </figure>
                 </div>
 
