@@ -14,7 +14,7 @@ function Landingpage() {
                         Celebramos a diversidade e valorizamos a inclusão, utilizando a tecnologia como ferramenta para abordar questões sociais urgentes. Aqui, cada voz é ouvida e cada contribuição é valorizada. Junte-se a nós nessa jornada em direção a um futuro onde a tecnologia seja verdadeiramente para todos.
                     </p>
                     <figure>
-                        <img src="../public/cyberTeam.jpg" alt="" />
+                        <img src="../public/static/images/cyberTeam.jpg" alt="" />
                     </figure>
 
                 </div>
@@ -26,14 +26,14 @@ function Landingpage() {
                         Estamos unidos em nossa missão de tornar a tecnologia acessível e inclusiva para todos.
                     </p>
                     <figure>
-                        <img src="../public/timePic1.avif" alt="" />
-                        <img src="../public/timePic2.avif" alt="" />
-                        <img src="../public/timePic3.avif" alt="" />
-                        <img src="../public/timePic4.avif" alt="" />
-                        <img src="../public/timePic5.avif" alt="" />
-                        <img src="../public/timePic6.avif" alt="" />
-                        <img src="../public/timePic7.avif" alt="" />
-                        <img src="../public/timePic8.avif" alt="" />
+                        <img src="../public/static/images/timePic1.avif" alt="" />
+                        <img src="../public/static/images/timePic2.avif" alt="" />
+                        <img src="../public/static/images/timePic3.avif" alt="" />
+                        <img src="../public/static/images/timePic4.avif" alt="" />
+                        <img src="../public/static/images/timePic5.avif" alt="" />
+                        <img src="../public/static/images/timePic6.avif" alt="" />
+                        <img src="../public/static/images/timePic7.avif" alt="" />
+                        <img src="../public/static/images/timePic8.avif" alt="" />
                     </figure>
                 </div>
 
@@ -44,7 +44,7 @@ function Landingpage() {
                         Além de cobrir desde conceitos básicos até tecnologias avançadas, nosso programa também aborda questões de carreira, gestão e ética na área de tecnologia. Oferecemos mentorias em soft skills para aprimorar habilidades como comunicação, liderança, aprendizado e auto-gestão.
                     </p>
                     <figure>
-                        <img src="../public/planoDeEstudos.jpg" alt="" />
+                        <img src="../public/static/images/planoDeEstudos.jpg" alt="" />
                     </figure>
                 </div>
 
