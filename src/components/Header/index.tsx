@@ -8,10 +8,10 @@ function Header(){
             </figure>
             <button>Login</button>
             <nav>
-                <a href=''>Sobre</a>
-                <a href=''>Time</a>
-                <a href=''>Plano de estudos</a>
-                <a href=''>Fale conosco</a>
+                <a href='#sobre'>Sobre</a>
+                <a href='#time'>Time</a>
+                <a href='#plano'>Plano de estudos</a>
+                <a href='#contato'>Fale conosco</a>
             </nav> 
         </header>
     )

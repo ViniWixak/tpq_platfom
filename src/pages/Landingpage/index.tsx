@@ -7,7 +7,7 @@ function Landingpage() {
         <>
             <Header />
             <section>
-                <div className={styles.sobre}>
+                <div className={styles.sobre} id="sobre">
                     <h2>Sobre</h2>
                     <p>
                         Nascemos da convicção de que a tecnologia é uma ferramenta que deve ser acessível a todos, independentemente de sua origem, gênero, raça, orientação sexual ou situação socioeconômica. Nosso objetivo é criar um ambiente seguro e inclusivo, combatendo o fosso digital e promovendo a igualdade frente ao acesso ao conteúdo tecnológico.<br /><br />
@@ -19,7 +19,7 @@ function Landingpage() {
 
                 </div>
 
-                <div className={styles.time}>
+                <div className={styles.time} id="time">
                     <h2>Time</h2>
                     <p>
                         Nossa equipe é composta por talentos diversos, todos comprometidos com o aprendizado contínuo e com a colaboração ativa na comunidade do Tecnologia Para Quem.<br />
@@ -37,7 +37,7 @@ function Landingpage() {
                     </figure>
                 </div>
 
-                <div className={styles.planoDeEstudos}>
+                <div className={styles.planoDeEstudos} id="plano">
                     <h2>Plano de estudos</h2>
                     <p>
                         Nosso plano de estudos visa criar um ambiente educacional inclusivo, ensinando programação e desenvolvimento de software para iniciantes, especialmente aqueles sem experiência prévia em computação. Buscamos engajar comunidades diversas e minorias, incentivando a criação de soluções inovadoras para desafios urgentes.<br /><br />
@@ -48,7 +48,7 @@ function Landingpage() {
                     </figure>
                 </div>
 
-                <div className={styles.faleConosco}>
+                <div className={styles.faleConosco} id="contato">
                     <h2>Fale conosco</h2>
                     <p><span>Vamos nos conectar e colaborar</span><br /><br />Se quiser saber mais sobre o programa Tecnologia Para Quem e colaborar conosco, não hesite em entrar em contato.</p>
                     <section className={styles.faleConoscoForms}>
