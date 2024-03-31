@@ -11,8 +11,10 @@ function Landingpage() {
                     <h2>Sobre</h2>
                     <p>
                         Nascemos da convicção de que a tecnologia é uma ferramenta que deve ser acessível a todos, independentemente de sua origem, gênero, raça, orientação sexual ou situação socioeconômica. Nosso objetivo é criar um ambiente seguro e inclusivo, combatendo o fosso digital e promovendo a igualdade frente ao acesso ao conteúdo tecnológico.<br /><br />
-                        Celebramos a diversidade e valorizamos a inclusão, utilizando a tecnologia como ferramenta para abordar questões sociais urgentes. Aqui, cada voz é ouvida e cada contribuição é valorizada. Junte-se a nós nessa jornada em direção a um futuro onde a tecnologia seja verdadeiramente para todos.
-                    </p>
+                        <span>
+                            Celebramos a diversidade e valorizamos a inclusão, utilizando a tecnologia como ferramenta para abordar questões sociais urgentes. Aqui, cada voz é ouvida e cada contribuição é valorizada.
+                        </span>
+                    </p>    
                     <figure>
                         <img src="/cyberTeam.jpg" alt="" />
                     </figure>

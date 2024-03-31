@@ -12,6 +12,12 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     color: var(--azul_claro);
+
+    @media (max-width: 750px) {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+    }
 }
 
 .sobre h2, .planoDeEstudos h2 {
@@ -23,6 +29,17 @@
 .sobre img {
     height: 400px;
     border-radius: 30px;
+
+    
+}
+
+.sobre figure {
+    @media (max-width: 750px) {
+        align-self: flex-end;
+        /* width: 300px; */
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
 }
 
 .sobre p {
@@ -32,6 +49,14 @@
     padding-left: 13rem;
     padding-right: 1rem;
     padding-top: 3rem;
+
+    @media (max-width: 750px) {
+        align-self: flex-end;
+        width: 500px;
+        padding: 0px;
+        padding-top: 2rem;
+        padding-right: 1rem;
+    }
 }
 
 
@@ -45,6 +70,11 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
+
+    @media (max-width: 750px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .time p {
@@ -52,8 +82,16 @@
     margin-bottom: 1rem;
     width: 1100px;
     padding-left: 14.5rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     color: var(--azul_marinho);
+
+    @media (max-width: 750px) {
+        align-self: flex-end;
+        padding-left: 0;
+        width: 500px;
+        flex-direction: column;
+        padding-right: 1rem;
+    }
 }
 
 .time h2, .faleConosco h2 {
@@ -64,11 +102,19 @@
 
 .time figure {
     padding-left: 20rem;
-}
+    @media (max-width: 750px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        padding-left: 0;    
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}   
 
 .time img {
     align-items: center;
-    justify-content: flex-end;
+    align-self: flex-end;
     width: 200px;
     margin: 1rem;
     border-radius: 30px;
@@ -83,16 +129,36 @@
     margin-bottom: 1rem;
     width: 1210px;
     padding-left: 20rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     color: var(--azul_claro);
+    @media (max-width: 750px) {
+        width: 500px;
+        align-self: flex-end;
+        padding-right: 1rem;
+        padding-left: 0;
+
+    }
 }
 
 .planoDeEstudos img {
     margin: 20px 0px 50px 380px;
     width: 800px;
+    @media (max-width: 750px) {
+        margin: 0;
+        width: 500px;
+        padding-right: 1rem;
+    }
+}
+
+.planoDeEstudos figure {
+    @media (max-width: 750px) {
+        align-self: flex-end;
+    }
 }
 
 .faleConosco {
+    display: flex;
+    flex-direction: column;
     background-color: var(--azul_claro);
     color: var(--azul_marinho);
     width: 100%;
@@ -104,9 +170,15 @@
     font-size: 1rem; 
     margin-bottom: 3rem;
     width: 1192px;
-    padding-left: 20rem;
-    padding-top: 1rem;
+    align-self: flex-end;
+    padding-top: 2rem;
     color: var(--azul_marinho);
+    @media (max-width: 750px) {
+        width: 500px;
+        align-self: flex-end;
+        padding-left: 0;
+        padding-right: 1rem;
+    }
 }
 
 .faleConosco span{
@@ -118,6 +190,11 @@
     align-items: center;
     justify-content: center;
     height: 40vw;
+    @media (max-width: 750px) {
+        height: 88vw;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
 
 form div {
@@ -153,4 +230,7 @@ form input[type=submit] {
     background-color: var(--rosa);
     margin: 0px 400px 0px 400px;
     border-radius: 20px;
+    @media (max-width: 750px) {
+        margin: 0;   
+    }
 }

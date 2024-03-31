@@ -16,7 +16,6 @@ function Footer() {
                 <a href='#plano'>Plano de estudos</a>
                 <a href='#contato'>Fale conosco</a>
             </nav>
-
         </footer>
     )
 }

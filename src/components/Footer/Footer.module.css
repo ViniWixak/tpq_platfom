@@ -12,12 +12,18 @@
 .footer img {
     width: 100px;
     margin-left: 200px;
+    @media (max-width: 750px) {
+        margin-left: 2rem;
+    }
 }
 
 .footer nav {
     display: flex;
     flex-direction: column;
     margin-right: 200px;
+    @media (max-width: 750px) {
+        margin-right: 1rem;
+    }
    
 }
 
