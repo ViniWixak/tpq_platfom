@@ -3,15 +3,15 @@
 }
 
 .sobre, .planoDeEstudos {
+    align-items: flex-start;
     background-color: var(--azul_marinho);
-    width: 100%;
+    color: var(--azul_claro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     min-height: 90vh;
     padding: 60px 0px 0px 0px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    color: var(--azul_claro);
+    width: 100%;
 
     @media (max-width: 750px) {
         display: flex;
@@ -22,16 +22,18 @@
 
 .sobre h2, .planoDeEstudos h2 {
     color: var(--azul_claro);
-    padding-left: 3rem;
     font-size: 1.5rem;
+    padding-left: 3rem;
+
     @media (max-width: 750px) {
         padding-left: 1rem;
     }
 }
 
 .sobre img {
-    height: 400px;
     border-radius: 30px;
+    height: 400px;
+
     @media (max-width: 750px) {
         height: 300px;
         margin-left: 1rem;
@@ -41,39 +43,40 @@
 .sobre figure {
     @media (max-width: 750px) {
         align-self: flex-end;
-        padding-right: 50px;
         padding-bottom: 20px;
+        padding-right: 50px;
     }
 }
 
 .sobre p {
-    font-size: 1rem; /* 48px */
+    font-size: 1rem;
     margin-bottom: 1rem;
-    width: 750px;
     padding-left: 13rem;
     padding-right: 1rem;
     padding-top: 3rem;
+    width: 750px;
 
     @media (max-width: 750px) {
         align-self: flex-end;
-        width: 330px;
         padding: 0px;
-        padding-top: 2rem;
         padding-right: 3rem;
+        padding-top: 2rem;
+        width: 330px;
     }
+
+    /* 48px */
 }
 
-
 .time {
+    align-items: flex-start;
     background-color: var(--azul_claro);
     color: var(--azul_marinho);
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     min-height: 90vh;
     padding: 60px 0px 0px 0px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    width: 100%;
 
     @media (max-width: 750px) {
         display: flex;
@@ -82,25 +85,28 @@
 }
 
 .time p {
-    font-size: 1rem; /* 48px */
+    color: var(--azul_marinho);
+    font-size: 1rem;
     margin-bottom: 1rem;
-    width: 1100px;
     padding-left: 14.5rem;
     padding-top: 2rem;
-    color: var(--azul_marinho);
+    width: 1100px;
 
     @media (max-width: 750px) {
         align-self: flex-end;
         padding-left: 0;
-        width: 330px;
         padding-right: 1rem;
+        width: 330px;
     }
+
+    /* 48px */
 }
 
 .time h2, .faleConosco h2 {
     color: var(--azul_marinho);
-    padding-left: 3rem;
     font-size: 1.5rem;
+    padding-left: 3rem;
+
     @media (max-width: 750px) {
         padding-left: 1rem;
     }
@@ -108,6 +114,7 @@
 
 .time figure {
     padding-left: 20rem;
+
     @media (max-width: 750px) {
         display: flex;
         flex-wrap: wrap;
@@ -119,12 +126,13 @@
 .time img {
     align-items: center;
     align-self: flex-end;
-    width: 200px;
-    margin: 1rem;
     border-radius: 30px;
+    margin: 1rem;
+    width: 200px;
+
     @media (max-width: 750px) {
-        width: 150px;
         border-radius: 20px;
+        width: 150px;
     }
 }
 
@@ -133,28 +141,29 @@
 }
 
 .planoDeEstudos p {
-    font-size: 1rem; 
+    color: var(--azul_claro);
+    font-size: 1rem;
     margin-bottom: 1rem;
-    width: 1210px;
     padding-left: 20rem;
     padding-top: 2rem;
-    color: var(--azul_claro);
-    @media (max-width: 750px) {
-        width: 330px;
-        align-self: flex-end;
-        padding-right: 1rem;
-        padding-left: 0;
+    width: 1210px;
 
+    @media (max-width: 750px) {
+        align-self: flex-end;
+        padding-left: 0;
+        padding-right: 1rem;
+        width: 330px;
     }
 }
 
 .planoDeEstudos img {
     margin: 20px 0px 50px 380px;
     width: 800px;
+
     @media (max-width: 750px) {
         margin: 0;
-        width: 330px;
         padding-right: 1rem;
+        width: 330px;
     }
 }
 
@@ -165,27 +174,28 @@
 }
 
 .faleConosco {
-    display: flex;
-    flex-direction: column;
     background-color: var(--azul_claro);
     color: var(--azul_marinho);
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     min-height: 90vh;
     padding: 60px 0px 100px 0px;
+    width: 100%;
 }
 
 .faleConosco p {
-    font-size: 1rem; 
-    margin-bottom: 3rem;
-    width: 1192px;
     align-self: flex-end;
-    padding-top: 2rem;
     color: var(--azul_marinho);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    width: 1192px;
+
     @media (max-width: 750px) {
-        width: 330px;
         align-self: flex-end;
         padding-left: 0;
         padding-right: 1rem;
+        width: 330px;
     }
 }
 
@@ -194,15 +204,16 @@
 }
 
 .faleConosco section {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     height: 40vw;
+    justify-content: center;
+
     @media (max-width: 750px) {
         height: 550px;
-        width: 330px;
         margin-left: 3rem;
         margin-right: 3rem;
+        width: 330px;
     }
 }
 
@@ -213,13 +224,14 @@ form div {
 }
 
 form input, form textarea {
+    background-color: var(--rosa);
+    border: 3px solid var(--azul_marinho);
+    border-radius: 20px;
+    color: var(--azul_claro);
     outline: unset;
     padding: 20px;
     width: 400px;
-    background-color: var(--rosa);
-    color: var(--azul_claro);
-    border: 3px solid var(--azul_marinho);
-    border-radius: 20px;
+
     @media (max-width: 750px) {
         width: auto;
     }
@@ -230,19 +242,20 @@ form input, form textarea {
 }
 
 form input[type=submit] {
-    background-color: var(--azul_esmeralda);
-    cursor: pointer;
-    border: 0px;
-    width: 300px;
-    margin-top: 30px;
     align-self: center;
+    background-color: var(--azul_esmeralda);
+    border: 0px;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 300px;
 }
 
 .faleConoscoForms {
     background-color: var(--rosa);
-    margin: 0px 400px 0px 400px;
     border-radius: 20px;
+    margin: 0px 400px 0px 400px;
+
     @media (max-width: 750px) {
-        margin: 0;   
+        margin: 0;
     }
 }

@@ -1,26 +1,23 @@
 :root {
-  font-family: 'Fira Code', monospace;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  --rosa: #FF2A6D;
   --azul_claro: #D2F9FF;
-  --azul_piscina: #05D8E9;
-  --azul_marinho: #02012B;
   --azul_esmeralda: #005679;
+  --azul_marinho: #02012B;
+  --azul_piscina: #05D8E9;
+  --rosa: #FF2A6D;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  color-scheme: light dark;
+  font-family: 'Fira Code', monospace;
+  font-synthesis: none;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
