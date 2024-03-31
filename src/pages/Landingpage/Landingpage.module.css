@@ -24,19 +24,23 @@
     color: var(--azul_claro);
     padding-left: 3rem;
     font-size: 1.5rem;
+    @media (max-width: 750px) {
+        padding-left: 1rem;
+    }
 }
 
 .sobre img {
     height: 400px;
     border-radius: 30px;
-
-    
+    @media (max-width: 750px) {
+        height: 300px;
+        margin-left: 1rem;
+    }
 }
 
 .sobre figure {
     @media (max-width: 750px) {
         align-self: flex-end;
-        /* width: 300px; */
         padding-right: 50px;
         padding-bottom: 20px;
     }
@@ -52,10 +56,10 @@
 
     @media (max-width: 750px) {
         align-self: flex-end;
-        width: 500px;
+        width: 330px;
         padding: 0px;
         padding-top: 2rem;
-        padding-right: 1rem;
+        padding-right: 3rem;
     }
 }
 
@@ -88,8 +92,7 @@
     @media (max-width: 750px) {
         align-self: flex-end;
         padding-left: 0;
-        width: 500px;
-        flex-direction: column;
+        width: 330px;
         padding-right: 1rem;
     }
 }
@@ -98,6 +101,9 @@
     color: var(--azul_marinho);
     padding-left: 3rem;
     font-size: 1.5rem;
+    @media (max-width: 750px) {
+        padding-left: 1rem;
+    }
 }
 
 .time figure {
@@ -106,9 +112,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: right;
-        padding-left: 0;    
-        padding-right: 3rem;
-        padding-left: 3rem;
+        padding: 0;
     }
 }   
 
@@ -118,6 +122,10 @@
     width: 200px;
     margin: 1rem;
     border-radius: 30px;
+    @media (max-width: 750px) {
+        width: 150px;
+        border-radius: 20px;
+    }
 }
 
 .time img:hover {
@@ -132,7 +140,7 @@
     padding-top: 2rem;
     color: var(--azul_claro);
     @media (max-width: 750px) {
-        width: 500px;
+        width: 330px;
         align-self: flex-end;
         padding-right: 1rem;
         padding-left: 0;
@@ -145,7 +153,7 @@
     width: 800px;
     @media (max-width: 750px) {
         margin: 0;
-        width: 500px;
+        width: 330px;
         padding-right: 1rem;
     }
 }
@@ -174,7 +182,7 @@
     padding-top: 2rem;
     color: var(--azul_marinho);
     @media (max-width: 750px) {
-        width: 500px;
+        width: 330px;
         align-self: flex-end;
         padding-left: 0;
         padding-right: 1rem;
@@ -191,7 +199,8 @@
     justify-content: center;
     height: 40vw;
     @media (max-width: 750px) {
-        height: 88vw;
+        height: 550px;
+        width: 330px;
         margin-left: 3rem;
         margin-right: 3rem;
     }
@@ -211,6 +220,9 @@ form input, form textarea {
     color: var(--azul_claro);
     border: 3px solid var(--azul_marinho);
     border-radius: 20px;
+    @media (max-width: 750px) {
+        width: auto;
+    }
 }
 
 ::placeholder {
