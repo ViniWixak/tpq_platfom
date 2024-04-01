@@ -2,6 +2,8 @@ import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import styles from './Landingpage.module.css'
 import FlippableCard from "../../components/FlippableCard"
+import Roadmap from "../../components/Roadmap/Map"
+
 
 function Landingpage() {
     return (
@@ -46,9 +48,7 @@ function Landingpage() {
                         Nosso plano de estudos visa criar um ambiente educacional inclusivo, ensinando programação e desenvolvimento de software para iniciantes, especialmente aqueles sem experiência prévia em computação. Buscamos engajar comunidades diversas e minorias, incentivando a criação de soluções inovadoras para desafios urgentes.<br /><br />
                         Além de cobrir desde conceitos básicos até tecnologias avançadas, nosso programa também aborda questões de carreira, gestão e ética na área de tecnologia. Oferecemos mentorias em soft skills para aprimorar habilidades como comunicação, liderança, aprendizado e auto-gestão.
                     </p>
-                    <figure>
-                        <img src="/planoDeEstudos.jpg" alt="" />
-                    </figure>
+                    <Roadmap/>
                 </div>
 
                 <div className={styles.faleConosco} id="contato">

@@ -1,0 +1,8 @@
+.roadmap {
+    background-image: url("planoDeEstudosBG.jpg");
+    background-size: 600px;
+    height: 600px;
+    margin: 20px 0px 50px 380px;
+    position: relative;
+    width: 600px;
+}

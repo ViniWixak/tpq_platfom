@@ -1,0 +1,16 @@
+.backbutton {
+    align-items: center;
+    font-size: 2rem;
+    color: var(--rosa);
+    background-color: #02012b99;
+    border-radius: 30px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 1rem;
+    width: 50px;
+}
+
+.backbutton:hover {
+    cursor: pointer;
+}
