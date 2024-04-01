@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import styles from './Landingpage.module.css'
+import FlippableCard from "../../components/FlippableCard"
 
 function Landingpage() {
     return (
@@ -28,14 +29,14 @@ function Landingpage() {
                         Estamos unidos em nossa missão de tornar a tecnologia acessível e inclusiva para todos.
                     </p>
                     <figure>
-                        <img src="/timePic1.avif" alt="" />
-                        <img src="/timePic2.avif" alt="" />
-                        <img src="/timePic3.avif" alt="" />
-                        <img src="/timePic4.avif" alt="" />
-                        <img src="/timePic5.avif" alt="" />
-                        <img src="/timePic6.avif" alt="" />
-                        <img src="/timePic7.avif" alt="" />
-                        <img src="/timePic8.avif" alt="" />
+                        <FlippableCard imagePath="/timePic1.avif"/>
+                        <FlippableCard imagePath="/timePic2.avif"/>
+                        <FlippableCard imagePath="/timePic3.avif"/>
+                        <FlippableCard imagePath="/timePic4.avif"/>
+                        <FlippableCard imagePath="/timePic5.avif"/>
+                        <FlippableCard imagePath="/timePic6.avif"/>
+                        <FlippableCard imagePath="/timePic7.avif"/>
+                        <FlippableCard imagePath="/timePic8.avif"/>
                     </figure>
                 </div>
 
