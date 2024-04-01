@@ -36,6 +36,19 @@
     padding: 0;
     padding-top: 1rem;
     width: 100%;
+
+    @media (max-width: 750px) {
+        font-size: 0.5rem;
+        width: auto;
+    }
+}
+
+.card_back span {
+   
+    @media (max-width: 750px) {
+        font-size: 0.5rem;
+        width: auto;
+    }
 }
 
 .card_back {
