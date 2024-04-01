@@ -26,7 +26,7 @@
 }
 
 .programacaoInside {
-    background-image: url("ilhaDaProgramacao.jpg");
+    background-image: url("/ilhaDaProgramacao.jpg");
     background-size: 750px;
     height: 600px;
     position: absolute;

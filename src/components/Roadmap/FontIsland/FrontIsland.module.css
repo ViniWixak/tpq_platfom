@@ -26,7 +26,7 @@
 }
 
 .FrontIslandInside {
-    background-image: url("ilhaDoFrontend.jpg");
+    background-image: url("/ilhaDoFrontend.jpg");
     background-size: 750px;
     height: 600px;
     position: absolute;
